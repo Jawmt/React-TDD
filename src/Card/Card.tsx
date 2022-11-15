@@ -6,7 +6,7 @@ import CardProps from './Card.type'
 const Card = ({title, body, footer, buttonLabel, buttonAction}: CardProps) => {
   return (
     <>
-      <div className='card-title'>{title}</div>
+      <div className='card-title'>Nouveau titre</div>
       <div className='card-body'>{body}</div>
       {
         footer &&
